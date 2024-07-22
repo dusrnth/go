@@ -126,3 +126,26 @@ channel: <nil>
 function: <nil>
 interface: <nil>
 ```
+
+## Return a random greeting
+**목적**
+- 미리 정의한 여러 인사들중에 하나 리턴해보기
+- 멀티파트 튜토리얼 시작하기 전에 한 부분으로 이해하기
+
+### 변수, 함수, 타입의 이름
+- 첫글자가 대문자이면 외부 패키지에서도 접근 가능한 공개(exported) 멤버가 됨
+- 소문자이면, 패키지 내부에서만 접근가능한 비공개(unexported) 멤버가 됨
+- 외부 패키지에서는 접근 가능하지 않은데, 같은 패키지  다른 go 파일에서는 randomFormat()에 접근 가능
+
+### 슬라이스와 배열
+```go
+var arr [3]int // 크기가 3인 int 배열 선언
+arr = [3]int{1, 2, 3} // 배열 초기화
+fmt.Println(arr) // 출력: [1 2 3]
+
+s := []int{1, 2, 3} // int 슬라이스 선언 및 초기화
+s = append(s, 4) // 슬라이스에 요소 추가
+fmt.Println(s) // 출력: [1 2 3 4]
+```
+
+## Return greetings for multiple people
