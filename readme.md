@@ -3,6 +3,7 @@
 - https://go.dev/doc/tutorial
 - Go 튜토리얼을 따라하는 프로젝트
 - 기본 컨셉, 문법, 사용법 등 익히는 목적
+- 실습하면서 기억해야할 것과 질문 정리
 - 각 목차마다 `## H2` 로 표시
 
 ## Getting Started
