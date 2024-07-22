@@ -1,5 +1,9 @@
 # Go
-https://go.dev/doc/tutorial
+
+- https://go.dev/doc/tutorial
+- Go 튜토리얼을 따라하는 프로젝트
+- 기본 컨셉, 문법, 사용법 등 익히는 목적
+
 ## Getting Started
 
 - root에 go.mod 필요
