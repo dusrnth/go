@@ -149,3 +149,24 @@ fmt.Println(s) // 출력: [1 2 3 4]
 ```
 
 ## Return greetings for multiple people
+**목표**
+- 인사 map 리턴
+
+> 질문: Go 언어에서 make() 뭐지? `messages := make(map[string]string)`
+
+```go
+// 맵 초기화
+messages := make(map[string]string)
+
+// 슬라이스 초기화
+numbers := make([]int, 5) // 길이가 5인 슬라이스 생성
+numbers := make([]int, 5, 10) // 길이가 5이고 용량이 10인 슬라이스 생성
+
+// 채널 생성 (채널은 데이터 송수신 담당)
+ch := make(chan int)
+```
+
+## Add a test
+- 파일 이름은 테스트할 파일 뒤에 `_test` 붙인다
+- `"testing"` import 한다.
+- 에러 조건에 t.Fatalf() 쓴다
