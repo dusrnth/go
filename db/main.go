@@ -53,7 +53,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("ID of added album: %v\n", albID)
+	fmt.Printf("ID of added album: %v\n", albID)
 }
 
 func albumsByArtist(name string) ([]Album, error) {
